@@ -9,3 +9,18 @@ The canvas is hardcoded to be monochromatic, hence each pixel is represented as 
 This library can be useful when using small, cheap monochromatic OLED displays. 
 
 It works well with the [oled_font_57](https://pub.dev/packages/oled_font_57) package.
+
+
+## Example usage
+
+```
+import 'package:monochrome_draw/draw.dart';
+
+
+main() {
+
+    final MonoCanvas oledBitmap = MonoCanvas(128, 64);
+
+    oledBitmap.drawLine(5, 5, 50, 50, true);
+}
+```

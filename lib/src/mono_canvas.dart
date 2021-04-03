@@ -1,7 +1,7 @@
 import 'font.dart';
 
 /// A monochromatic bitmap canvas, with useful drawing routines.
-class Monomap {
+class MonoCanvas {
   final int width;
   final int height;
 
@@ -12,7 +12,7 @@ class Monomap {
 
   List<bool> get data => _bitmap;
 
-  Monomap(this.width, this.height);
+  MonoCanvas(this.width, this.height);
 
   /// draw single pixel
   void drawPixel(int x, int y, bool color) {
