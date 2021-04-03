@@ -1,6 +1,6 @@
 Drawing on a monochromatic bitmap canvas.
 
-![example of using monochrome_draw package on an Akai Fire](docs/example1.jpeg)
+![example of using monochrome_draw package on an Akai Fire](doc/example1.jpeg)
 
 A library of drawing routines for a monochromatic bitmap canvas, ported to Dart from the awesome [oled-js](https://github.com/noopkat/oled-js) by @noopkat. 
 
