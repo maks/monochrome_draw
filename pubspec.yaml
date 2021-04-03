@@ -1,0 +1,10 @@
+name: monochrome_draw
+description: Drawing on a monochromatic bitmap canvas.
+version: 1.0.0
+homepage: https://github.com/maks/monochrome_draw
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dev_dependencies:
+  pedantic: ^1.9.0
