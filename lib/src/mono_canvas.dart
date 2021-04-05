@@ -213,7 +213,9 @@ class MonoCanvas {
   }
 
   void clear() {
-    _bitmap.map((e) => false);
+    for (var i = 0; i < _bitmap.length; i++) {
+      _bitmap[i] = false;
+    }
   }
 
   /// draw an individual character to the screen
